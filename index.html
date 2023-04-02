@@ -33,8 +33,24 @@
     </nav>
 
     <!-- Landing page section -->
-    <section class="section">
-        <h1>Landing Page</h1>
+    <section class="section section__hero">
+        <img class="hero-bg" src="./app/Assets/portrait.jpg" alt="">
+        <div class="container d-flex justify-content-center align-items-center flex-column">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <!-- <img src="./playground_assets/Logotechat.svg" class="main-logo" alt="main logo"> -->
+                <h1 class="hero-logo">TECHANT <br>MEDIA</h1>
+                <p class="tagline">DIFFERENT AS USUAL</p>
+            </div>
+            <p class="hero_desc">Hello there, welcome to <span>techant media. The Haven for making and keeping memories.</span></p>
+            <div class="buttons-container">
+                <a href="#">
+                    <img src="./playground_assets/Login btn.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./playground_assets/Register btn.png" alt="">
+                </a>
+            </div>
+        </div>
     </section>
 
     <!-- Gallery section -->
@@ -75,8 +91,40 @@
 
 
     <!-- Services page section -->
-    <section>
-        <h1>Services Page</h1>
+    <section class="section section__services-page d-flex flex-column justify-content-between align-items-center">
+        <div class="row banner d-flex align-items-center">
+            <div class="col col-4 d-flex">
+                <img src="./app/Assets/custom-vector.svg" alt="custom vector Icon">
+                <h3 class="ms-2">Our <br>Services</h3>
+            </div>
+            <div class="col col-4 text-center">
+                <p>DIFFERENT <br>AS <br>USUAL</p>
+            </div>
+        </div>
+        <div class="row section-content">
+            <div class="col col-4">
+                <div class="card glass-card d-flex justify-content-center align-items-center">
+                    <h2>What We Offer</h2>
+                </div>
+            </div>
+            <div class="col col-4">
+                <div class="card card__custom mb-3">
+                    <h3>Photo Editing</h3>
+                    <p>Our editors work round the clock to make sure you get the most epic edits</p>
+                </div>
+                <div class="card card__custom">
+                    <h3>Video Editing</h3>
+                    <p>Looking to edit a TikTok video or your next YouTube video ? Look no More</p>
+                </div>
+            </div>
+            <div class="col col-4">
+                <div class="card glass-card d-flex justify-content-center align-items-center">
+                    <h4 class="mb-3">Studio photography</h4>
+                    <h4 class="mb-3">Traditional Shoots</h4>
+                    <h4 class="mb-3">Birthday Shoots</h4>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Pricing page section -->
