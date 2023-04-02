@@ -1,0 +1,97 @@
+#top_bar{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+    word-spacing: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    word-spacing: 50px;
+
+}
+    #div_main{
+        display: flex;
+        color: beige;
+        height: 400px;
+        padding: 0%;
+        
+        text-align: center;
+        padding-top: 4px;
+        width: 100%;
+    }
+    #div1{
+        flex: 20%;
+        text-align: center;  
+        vertical-align: 50%;
+        padding-top: 100px;
+        
+        font-family: times new roman;
+        border-radius: 12px;
+        color: white;
+        border: transparent;
+        background-image: url(TECHANT.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+
+      }
+    #div2{
+        flex: 60%;
+    
+        position: relative;
+        border-radius: 4px;
+
+    }
+    
+    #div3{
+        flex: 20%;
+        
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 100px;
+        border-radius: 12px;
+        background-size: cover;
+        border: transparent;
+    }
+    #div_a{
+        flex-grow: 1; 
+        flex-wrap: wrap;
+        
+        height: aut0; 
+        border: thin solid white;
+        padding: 2px;
+        border-radius: 12px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 20px;
+        color: rgb(250, 243, 236);
+        background-size: cover;
+    }
+    #div_b{
+        flex-grow: 1; 
+        flex-wrap: wrap;
+        
+        height: auto; 
+        border: thin solid white; 
+        padding: 2px; 
+        border-radius: 12px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 40px;
+        font-size: 20px;
+        color: white;
+
+    }
+    #text{
+        
+        font-size: xx-large;
+
+    }
+    #image{
+        width: 30;
+        height: 50px;
+        padding: 5px;
+        display: flex;
+        margin-right: 20px;
+    }

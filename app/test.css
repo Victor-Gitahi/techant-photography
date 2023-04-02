@@ -1,0 +1,61 @@
+.logo {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin: 20px;
+            margin-top: 50px;
+		}
+
+		.logo img {
+			max-height: 50px;
+			margin-right: 10px;
+		}
+
+		.quality {
+			text-align: center;
+			margin-top: 50px;
+			
+		}
+
+		.quality h2 {
+			font-size: 3em;
+			line-height: 1em;
+			margin: 0;
+		}
+
+		.quality span {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 50px;
+			display: block;
+		}
+		
+
+		.mybody {
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+
+		.item {
+			position: relative;
+			background-color: #f1f1f1;
+			height: 400px;
+			width: 267px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 267px;
+			height: 400px;
+			object-fit: cover;
+		}
+
+		.fancy_text {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
