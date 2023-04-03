@@ -1,7 +1,5 @@
 <?php
 
-// Start the session
-session_start();
 
 // Include the bootstrap file
 require __DIR__ . '/../src/bootstrap.php';

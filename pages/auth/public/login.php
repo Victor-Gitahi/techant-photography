@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/../src/bootstrap.php';
+require __DIR__ . '/../src/login.php';
 ?>
 
 <?php view('header', ['title' => 'Login']) ?>
@@ -12,13 +13,13 @@ require __DIR__ . '/../src/bootstrap.php';
     <h1 class="form__header">Login</h1>
     <div>
       <label for="username">Username:</label>
-      <input type="text" name="username" id="username">
+      <input type="text" name="username" id="username" placeholder="username">
       <small><?= $errors['username'] ?? '' ?></small>
     </div>
 
     <div>
       <label for="password">Password:</label>
-      <input type="password" name="password" id="password">
+      <input type="password" name="password" id="password" id="username" placeholder="password">
       <small><?= $errors['password'] ?? '' ?></small>
     </div>
 

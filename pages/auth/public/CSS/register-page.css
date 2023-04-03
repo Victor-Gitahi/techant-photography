@@ -100,3 +100,9 @@ footer {
     width: 80vw;
   }
 }
+
+@media screen and (max-width: 999px) {
+  .form {
+    width: 70vw;
+  }
+}
