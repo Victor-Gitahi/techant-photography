@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272626;
+}
+
+a {
+  text-decoration: none;
+  color: #4ae6f8;
+}
+
+.bg-image {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.form-card {
+  width: 70vw;
+  height: 80vh;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.left-side {
+  height: 100%;
+  width: 55%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side .bg-image, .left-side .bg-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  z-index: -10;
+  opacity: 0.8;
+}
+.left-side .text-content {
+  color: #ffffff;
+  text-align: center;
+}
+.left-side .text-content h3 {
+  font-size: 6rem;
+  letter-spacing: -5px;
+}
+.left-side .text-content h3 span {
+  color: #4ae6f8;
+}
+.left-side .text-content p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+
+.right-side {
+  width: 45%;
+  height: 100%;
+}
+.right-side .form {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem 0.95rem;
+}
+.right-side .form__header {
+  text-transform: uppercase;
+  font-size: 1.85rem;
+  margin: 2rem 0;
+}
+.right-side .form input {
+  background-color: transparent;
+  border: 1px solid rgba(147, 146, 146, 0.1294117647);
+  outline: none;
+  padding: 0.65rem 2.85rem;
+  margin: 0.75rem 0;
+  border-radius: 0.5rem;
+  color: #4ae6f8;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  font-weight: 700;
+  width: 70%;
+}
+.right-side .form input:focus::-moz-placeholder {
+  opacity: 0;
+}
+.right-side .form input:focus::placeholder {
+  opacity: 0;
+}
+.right-side .form input::-moz-placeholder {
+  color: #b4b4b4;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.right-side .form input::placeholder {
+  color: #b4b4b4;
+  transition: all 0.2s ease-in;
+}
+.right-side .form__agree {
+  font-size: 0.75rem;
+}
+.right-side .form__agree input {
+  width: auto;
+}
+.right-side .form__button {
+  margin: 1.25rem 0;
+  border: 2px solid slateblue;
+  outline: none;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  padding: 0.5rem 5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.15s ease-in;
+  position: relative;
+  overflow: hidden;
+}
+.right-side .form__button::after {
+  position: absolute;
+  content: "";
+  background-color: #4ae6f8;
+  height: 100%;
+  width: 0;
+  left: 0;
+  top: 0;
+  border-radius: 0.5rem;
+  z-index: -1;
+  transition: all 0.15s ease-in;
+  transition-delay: 0.15s;
+}
+.right-side .form__button:hover {
+  border: 2px solid #4ae6f8;
+  cursor: pointer;
+  color: #272626;
+}
+.right-side .form__button:hover:after {
+  width: 120%;
+}
+
+footer {
+  color: #fff;
+  font-size: 0.75rem;
+}/*# sourceMappingURL=test.css.map */

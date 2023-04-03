@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+  background: #FFF8E4;
+}
+
+.form {
+  position: relative;
+  padding: 2rem 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid #fff;
+  height: auto;
+  width: 30vw;
+  transition: all .3s ease;
+}
+
+.ellipse {
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+}
+.ellipse_1 {
+  background-color: #AD00FF;
+  top: -5rem;
+  left: -5rem;
+}
+.ellipse_2 {
+  background-color: #52FF78;
+  bottom: -5rem;
+  right: -5rem;
+}
+.ellipse_3 {
+  filter: blur(100px);
+  background-color: #FFC700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form__header {
+  color: #1f1f1f;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  padding: .75rem 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.form__agree {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+}
+.form__button {
+  border: none;
+  outline: none;
+  background: #1f1f1f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.register__link {
+  font-size: small;
+}
+small {
+  font-size: .5rem;
+  color: red;
+}
+footer {
+  font-size: small;
+}
+@media screen and (max-width: 567px) {
+  .form {
+    width: 80vw;
+  }
+}
